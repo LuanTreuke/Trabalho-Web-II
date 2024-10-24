@@ -1,4 +1,14 @@
-<section class="banner-principal">
+<section  id="section-home" class="banner-principal">
+
+        <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/IFPR-slide1.jpg')" 
+            class="banner-single"></div>
+
+        <div style="background-image: url('<?php echo INCLUDE_PATH; ?>assets/img/IFPR-slide2.jpg')" 
+            class="banner-single"></div>
+
+        <div style="background-image: url('<?php echo INCLUDE_PATH; ?>assets/img/IFPR-slide3.jpg')" 
+            class="banner-single"></div>
+
         <div class="overlay"></div>
         <div class="center">
             <form action="">
@@ -7,6 +17,11 @@
                 <input type="submit" name="enviar" value="Enviar">
             </form>
         </div>
+
+        <div class="bullets">
+            
+        </div>
+
     </section>
 
     <section class="descricao-autor">
@@ -86,7 +101,7 @@
         </div>
     </section>
 
-    <section class="extras">
+    <section id="section-extras" class="extras">
         <div class="center">
             <div id="depoimentos" class="w50 left">
                 <h2 class="title">Depoimentos</h2>
