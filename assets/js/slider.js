@@ -51,9 +51,9 @@ $(function(){
     $('body').on('click', '.bullets span', function(){
         var currentBullet = $(this);
         //Sincronizar bullets e slider
-        $('.banner-single').eq(currentSlide).fadeOut();
+        $('.banner-single').eq(currentSlide).stop().fadeOut();
         currentSlide = currentBullet.index();
-        $('.banner-single').eq(currentSlide).fadeIn();
+        $('.banner-single').eq(currentSlide).stop().fadeIn();
         $('.bullets span').removeClass('active-slider');
         currentBullet.addClass('active-slider');
     })

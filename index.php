@@ -15,12 +15,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <!-- Icone -->
+    <!-- Icones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Projeto 1</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="<?php echo INCLUDE_PATH;?>favicon.ico" type="image/x-icon">
+    
+    <title>IFPR</title>
 </head>
 
 <body>
@@ -43,7 +45,11 @@
 
     <header>
         <div class="center">
-            <div class="logo left">Logomarca</div>
+            <div class="logo left">
+                <a href="<?php echo INCLUDE_PATH;?>">
+                    <img src="<?php echo INCLUDE_PATH;?>ifpr-logo.png" alt="IFPR">
+                </a>
+            </div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH;?>">Home</a></li>
@@ -80,6 +86,10 @@
         }
     ?>
 
+    <a href="https://wa.me/5542999999999" class="btnWhatsapp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
     <footer <?php if(isset($pagina404) && $pagina404 == true) echo 'class = "fixed"'; ?>>
         <div class="center">
             <p>Todos os direitos reservados!</p>
@@ -94,9 +104,13 @@
     <script src="<?php echo INCLUDE_PATH;?>assets/js/scripts.js"></script>    
 
     <?php if($url == 'home' || $url == '' || $url == 'depoimentos' || $url == 'servicos' ){?>
-        <script src="<?php echo INCLUDE_PATH;?>assets/js/slider.js"></script>  
+        <script src="<?php echo INCLUDE_PATH;?>assets/js/slider.js"></script>
+        <script src="<?php echo INCLUDE_PATH;?>assets/js/especialidades.js"></script>
+        <script src="<?php echo INCLUDE_PATH;?>assets/js/melhoremail.js"></script>
     <?php } ?>
     
+    
+
 </body>
 
 </html>
