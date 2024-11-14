@@ -28,7 +28,7 @@
 <body>
     
 <?php
-        //Obtendo a url se existir ou home
+        //Obtendo a url se existir, senão, home
         $url = isset($_GET['url']) ? $_GET['url'] : 'home'; //equivalente a lógica de if(exists(get('url'))) {url = get(url)} else {url = 'home'}
 
         switch ($url) {

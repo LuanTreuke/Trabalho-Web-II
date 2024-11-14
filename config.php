@@ -1,3 +1,14 @@
 <?php
-    define('INCLUDE_PATH', 'http://localhost/Revisao-web-1/')
+    //definir o dominio do site
+    define('INCLUDE_PATH', 'http://localhost/Revisao-web-1/');
+
+    //Carregando a classe: 'Email'
+    $autoload = function($class){
+        include('assets/classes/'.$class.'.php');
+    };
+
+    spl_autoload_register($autoload);
+
+
+
 ?>

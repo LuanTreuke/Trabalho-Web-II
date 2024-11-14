@@ -1,6 +1,6 @@
 <div class="contato-container">
     <div class="center">
-        <form action="">
+        <form method="post" action="">
             <input type="text" name="nome" id="" placeholder="Nome:">
             <input type="text" name="email" id="" placeholder="Email:">
             <input type="text" name="telefone" id="" placeholder="Telefone:">
@@ -15,4 +15,12 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+
+    <?php 
+        if(isset($_POST['btnEnviar'])){
+            new Email();
+        }
+    
+    ?>
+
 </div>
