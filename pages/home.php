@@ -1,162 +1,81 @@
-<section  id="section-home" class="banner-principal">
-
-        <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/IFPR-slide1.jpg')" 
-            class="banner-single"></div>
-
-        <div style="background-image: url('<?php echo INCLUDE_PATH; ?>assets/img/IFPR-slide2.jpg')" 
-            class="banner-single"></div>
-
-        <div style="background-image: url('<?php echo INCLUDE_PATH; ?>assets/img/IFPR-slide3.jpg')" 
-            class="banner-single"></div>
-
-        <div class="overlay"></div>
-        <div class="center">
-            <form action="">
-                <h2>Qual o seu melhor e-mail?</h2>
-                <input type="email" name="email" id="email" required>
-                <input type="submit" name="enviar" value="Enviar">
-            </form>
+<section id="section-home"> 
+    <article>
+        <div class="container-home">
+            <h1>Mundo Pokémon: o que é, sua história e como funciona </h1>
+            <img class="imagem" src="assets/img/grupo-pokémon.jpg" alt="Imagem grupo pokémon">
+            <div class="Texto">
+                <p> 
+                    <strong class="sub-titulo">Você sabe o que é e como funciona o Mundo Pokémon?</strong> 
+                    <br>
+                    Esse universo surgiu graças à popular franquia de games criada pela Nintendo e é muito maior e complexo do que você pode imaginar.
+                    <br><br>
+                    <strong class="sub-titulo">A Geografia do Mundo Pokémon</strong>
+                    <br>
+                    Como muitos já sabem desde a época dos jogos da franquia, o Mundo Pokémon é dividido em regiões que são inspiradas em
+                    locais do mundo real. Kanto, Johto, Hoenn e Sinnoh são inspiradas em áreas geográficas do Japão.
+                    Já Unova é inspirada em Nova York, Kalos é baseada na França, Alola é uma cópia das ilhas do Havaí e Galar, que ainda
+                    fará sua estreia na franquia, é semelhante às Ilhas Britânicas. Em muitos casos, os Pokémons acabam afetados pelo clima
+                    e características desses locais. Isso é mais evidente da região de Alola, em que muitos Pokémons são diferentes de suas
+                    contrapartes normais.
+                    A geografia do Mundo Pokémon foi criada após um duelo entre os lendários Groudon e Kyogre, que tentaram modificar o
+                    planeta, cada um a seu favor.
+                    Depois, os continentes foram modificados novamente graças à interferência de Regigigas, que com sua força, criou as
+                    regiões que nós conhecemos dentro do Mundo Pokémon. Mas antes que o Pokémon causasse mais mudanças, ele foi selado pelo
+                    Regis (que, até onde se sabe, podem ter sido criados pelos humanos) na região de Sinnoh.
+                    E muitas das cavernas existentes dentro do Mundo Pokémon foram uma obra dos Pokémon do tipo terrestre. Um bom exemplo é
+                    a caverna dos Digletts, que fica na região de Kanto.
+                    <br><br>
+                </p>
+                <img class="imagem" src="assets/img/mundo pokemon.png" alt="mundos pokémon">
+                <p>
+                    <strong class="sub-titulo">História</strong>
+                    <br>
+                    Como muitos já sabem desde a época dos jogos da franquia, o Mundo Pokémon é dividido em regiões que são inspiradas em
+                    locais do mundo real. Kanto, Johto, Hoenn e Sinnoh são inspiradas em áreas geográficas do Japão.
+                    Já Unova é inspirada em Nova York, Kalos é baseada na França, Alola é uma cópia das ilhas do Havaí e Galar, que ainda
+                    fará sua estreia na franquia, é semelhante às Ilhas Britânicas. Em muitos casos, os Pokémons acabam afetados pelo clima
+                    e características desses locais. Isso é mais evidente da região de Alola, em que muitos Pokémons são diferentes de suas
+                    contrapartes normais.
+                    A geografia do Mundo Pokémon foi criada após um duelo entre os lendários Groudon e Kyogre, que tentaram modificar o
+                    planeta, cada um a seu favor.
+                    Depois, os continentes foram modificados novamente graças à interferência de Regigigas, que com sua força, criou as
+                    regiões que nós conhecemos dentro do Mundo Pokémon. Mas antes que o Pokémon causasse mais mudanças, ele foi selado pelo
+                    Regis (que, até onde se sabe, podem ter sido criados pelos humanos) na região de Sinnoh.
+                    E muitas das cavernas existentes dentro do Mundo Pokémon foram uma obra dos Pokémon do tipo terrestre. Um bom exemplo é
+                    a caverna dos Digletts, que fica na região de Kanto.
+                    <br><br>
+                    <strong class="sub-titulo">A cultura humana</strong>
+                    <br>
+                    Sim, a sociedade humana do Mundo Pokémon teve de aprender a coexistir com os poderosos monstrinhos. Um foco importante
+                    desta sociedade é a caça e o treinamento dos Pokémon para duelos e competições, mas sabemos que vai muito além disso.
+                    
+                    Por exemplo, os monstros do tipo elétrico ajudam a abastecer casas e prédios com energia elétrica; os que voam levam
+                    pessoas de um lado para outro (mesmo com a existência de carros, barcos e aviões), alguns ajudam em construções e outros
+                    são fundamentais para manter alguns ecossistemas.
+                    
+                    Também é importante lembrar que em algumas culturas de determinadas regiões, alguns Pokémon são venerados pela
+                    população. Em Johto, na cidade de Ecruteak, existiam as Torres Tin e Brass, onde viviam os lendários Lugia e Ho-oh. Mas
+                    quando a segunda foi destruída em um incêndio, eles deixaram o local.
+                    
+                    Três monstrinhos morreram nessa tragédia, mas eles foram revividos por Ho-oh e se tornaram Raikou, Entei e Suicune.
+                    
+                    Além disso, outro ponto que afeta a cultura humana é que existem evidências de vida pós-morte no Mundo Pokémon. Não
+                    apenas por conta da existência dos monstrinhos do tipo fantasma, mas todos os espíritos que já apareceram nos games da
+                    franquia, como é o caso do da mãe do Pokémon Marowak na cidade de Lavender.
+                    
+                    No entanto, não sabemos se esses espíritos são reais ou uma mera brincadeira dos Pokémon fantasma para assustar os
+                    humanos.
+                    
+                    E, claro, não podemos nos esquecer que a própria humanidade acabou criando alguns monstinhos. Esse é o caso de Grimer e
+                    Muk, produtos de poluição, por exemplo.
+                </p>
+                <img class="imagem" src="assets/img/Ash e amigos.jpg" alt="Ash com seu grupo">
         </div>
-
-        <div class="bullets">
+        
             
+        
         </div>
 
-    </section>
 
-    <section class="descricao-autor">
-        <div class="center">
-            <div class="w50 left">
-                <h2>Luan Treuke</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor neque quis lacus porttitor,
-                    non molestie mi faucibus. Suspendisse sit amet facilisis sapien. Nam dignissim nunc ut tortor semper
-                    consequat. Proin scelerisque imperdiet nisl, venenatis faucibus purus. Nam ac ultrices tortor, eget
-                    lobortis felis. Aenean nec dui blandit, interdum mi nec, vulputate lorem. Sed tempor id ante et
-                    maximus. Proin gravida elit at lorem laoreet tempor et sit amet ante. Phasellus id nunc a tellus
-                    vehicula consectetur sed id augue. Nunc dictum libero tellus, id tincidunt ante sodales sit amet.
-                    Cras orci lorem, ultricies sodales cursus nec, placerat quis ex. Quisque molestie ornare est sit
-                    amet varius. Aenean diam tortor, pretium quis nulla a, eleifend maximus urna. Suspendisse sed felis
-                    massa.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor neque quis lacus porttitor,
-                    non molestie mi faucibus. Suspendisse sit amet facilisis sapien. Nam dignissim nunc ut tortor semper
-                    consequat. Proin scelerisque imperdiet nisl, venenatis faucibus purus. Nam ac ultrices tortor, eget
-                    lobortis felis. Aenean nec dui blandit, interdum mi nec, vulputate lorem. Sed tempor id ante et
-                    maximus. Proin gravida elit at lorem laoreet tempor et sit amet ante. Phasellus id nunc a tellus
-                    vehicula consectetur sed id augue. Nunc dictum libero tellus, id tincidunt ante sodales sit amet.
-                    Cras orci lorem, ultricies sodales cursus nec, placerat quis ex. Quisque molestie ornare est sit
-                    amet varius. Aenean diam tortor, pretium quis nulla a, eleifend maximus urna. Suspendisse sed felis
-                    massa.</p>
-            </div>
-            <div class="w50 left">
-                <img src="<?php echo INCLUDE_PATH;?>assets\img\campus ifpr.jpg" alt="Local de trabalho">
-            </div>
-            <div class="clear"></div>
-            <!--clear float-->
-        </div>
-    </section>
-
-    <section class="especialidades">
-        <div class="center">
-            <h2 class="title">Especialidades</h2>
-            <div class="w33 left box-especialidades">
-                <h3><i class="fa-brands fa-html5"></i></h3>
-                <h3>HTML 5</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor neque quis lacus porttitor,
-                    non molestie mi faucibus. Suspendisse sit amet facilisis sapien. Nam dignissim nunc ut tortor semper
-                    consequat. Proin scelerisque imperdiet nisl, venenatis faucibus purus. Nam ac ultrices tortor, eget
-                    lobortis felis. Aenean nec dui blandit, interdum mi nec, vulputate lorem. Sed tempor id ante et
-                    maximus. Proin gravida elit at lorem laoreet tempor et sit amet ante. Phasellus id nunc a tellus
-                    vehicula consectetur sed id augue. Nunc dictum libero tellus, id tincidunt ante sodales sit amet.
-                    Cras orci lorem, ultricies sodales cursus nec, placerat quis ex. Quisque molestie ornare est sit
-                    amet varius. Aenean diam tortor, pretium quis nulla a, eleifend maximus urna. Suspendisse sed felis
-                    massa.</p>
-            </div>
-            <div class="w33 left box-especialidades">
-                <h3><i class="fa-brands fa-css3"></i></h3>
-                <h3>CSS 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor neque quis lacus porttitor,
-                    non molestie mi faucibus. Suspendisse sit amet facilisis sapien. Nam dignissim nunc ut tortor semper
-                    consequat. Proin scelerisque imperdiet nisl, venenatis faucibus purus. Nam ac ultrices tortor, eget
-                    lobortis felis. Aenean nec dui blandit, interdum mi nec, vulputate lorem. Sed tempor id ante et
-                    maximus. Proin gravida elit at lorem laoreet tempor et sit amet ante. Phasellus id nunc a tellus
-                    vehicula consectetur sed id augue. Nunc dictum libero tellus, id tincidunt ante sodales sit amet.
-                    Cras orci lorem, ultricies sodales cursus nec, placerat quis ex. Quisque molestie ornare est sit
-                    amet varius. Aenean diam tortor, pretium quis nulla a, eleifend maximus urna. Suspendisse sed felis
-                    massa.</p>
-            </div>
-            <div class="w33 left box-especialidades">
-                <h3><i class="fa-brands fa-js"></i></h3>
-                <h3>JS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor neque quis lacus porttitor,
-                    non molestie mi faucibus. Suspendisse sit amet facilisis sapien. Nam dignissim nunc ut tortor semper
-                    consequat. Proin scelerisque imperdiet nisl, venenatis faucibus purus. Nam ac ultrices tortor, eget
-                    lobortis felis. Aenean nec dui blandit, interdum mi nec, vulputate lorem. Sed tempor id ante et
-                    maximus. Proin gravida elit at lorem laoreet tempor et sit amet ante. Phasellus id nunc a tellus
-                    vehicula consectetur sed id augue. Nunc dictum libero tellus, id tincidunt ante sodales sit amet.
-                    Cras orci lorem, ultricies sodales cursus nec, placerat quis ex. Quisque molestie ornare est sit
-                    amet varius. Aenean diam tortor, pretium quis nulla a, eleifend maximus urna. Suspendisse sed felis
-                    massa.</p>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </section>
-
-    <section id="section-extras" class="extras">
-        <div class="center">
-            <div id="depoimentos" class="w50 left">
-                <h2 class="title">Depoimentos</h2>
-                <div class="depoimento-single">
-                    <p class="depoimento-descricao">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sint soluta id dignissimos
-                        dicta, in vero facere velit impedit consectetur beatae itaque totam rerum provident quibusdam
-                        officiis hic explicabo? Quidem.
-                    </p>
-                    <p class="nome-autor">Lorem Ipsum</p>
-                </div>
-                <div class="depoimento-single">
-                    <p class="depoimento-descricao">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sint soluta id dignissimos
-                        dicta, in vero facere velit impedit consectetur beatae itaque totam rerum provident quibusdam
-                        officiis hic explicabo? Quidem.
-                    </p>
-                    <p class="nome-autor">Lorem Ipsum</p>
-                </div>
-                <div class="depoimento-single">
-                    <p class="depoimento-descricao">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sint soluta id dignissimos
-                        dicta, in vero facere velit impedit consectetur beatae itaque totam rerum provident quibusdam
-                        officiis hic explicabo? Quidem.
-                    </p>
-                    <p class="nome-autor">Lorem Ipsum</p>
-                </div>
-            </div>
-            <div id="servicos" class="w50 left">
-                <h2 class="title">Serviços</h2>
-                <div class="servicos">
-                    <ul>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum numquam odio dolore aut
-                            nesciunt quas placeat esse quae aperiam odit officia, ipsam, iusto natus reprehenderit
-                            laboriosam eveniet, fuga eum assumenda?
-                        </li>
-                        <li>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, dolorem
-                            exercitationem. Aliquam nisi cumque ratione reiciendis, tenetur odit sed sapiente magni
-                            facilis quibusdam soluta? Consequuntur dignissimos fugiat maiores animi sunt.
-                        </li>
-                        <li>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam iure repellendus, ab nulla
-                            adipisci consequatur quidem temporibus at aut vero ex hic. Porro, quod consectetur quibusdam
-                            doloremque illo optio dolorum.
-                        </li>
-                        <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita accusamus
-                            reiciendis adipisci quam placeat ea et autem, assumenda nisi aperiam quidem rerum
-                            voluptatibus tempora cum maxime dolores aliquid voluptates.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </section>
+    </article>
+</section>

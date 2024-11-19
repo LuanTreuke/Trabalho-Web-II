@@ -44,31 +44,28 @@
     
 
     <header>
-        <div class="center">
-            <div class="logo left">
-                <a href="<?php echo INCLUDE_PATH;?>">
-                    <img src="<?php echo INCLUDE_PATH;?>ifpr-logo.png" alt="IFPR">
-                </a>
+            <a href="<?php echo INCLUDE_PATH;?>">
+                <img src="<?php echo INCLUDE_PATH;?>home icon.png" alt="LOGO POKEBOLA" id="home-button">
+            </a>
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-li"><a href="<?php echo INCLUDE_PATH;?>pokedex">Pokédex</a></li>
+                    <li class="nav-li"><a href="<?php echo INCLUDE_PATH;?>contato">Contato</a></li>
+                    <li class="nav-li"><a href="<?php echo INCLUDE_PATH;?>autor">Autor</a></li>
+                </ul>
             </div>
-            <nav class="desktop right">
-                <ul>
-                    <li><a href="<?php echo INCLUDE_PATH;?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH;?>depoimentos">Depoimentos</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH;?>servicos">Serviços</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH;?>contato">Contato</a></li>
-                </ul>
-            </nav>
-            <nav class="mobile right">
-                <div class="bars-mobile fa-solid fa-bars"></div>
-                <ul>
-                    <li><a href="<?php echo INCLUDE_PATH;?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH;?>depoimentos">Depoimentos</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH;?>servicos">Serviços</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH;?>contato">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="clear"></div>
-        </div>
+        </nav>
+        <nav class="mobile">
+            <div class="bars-mobile fa-solid fa-bars"></div>
+            <ul>
+                <li ><a href="<?php echo INCLUDE_PATH;?>">Home</a></li>
+                <li><a href="<?php echo INCLUDE_PATH;?>pokedex">Pokédex</a></li>
+                <li><a href="<?php echo INCLUDE_PATH;?>contato">Contato</a></li>
+                <li><a href="<?php echo INCLUDE_PATH;?>autor">Autor</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <?php

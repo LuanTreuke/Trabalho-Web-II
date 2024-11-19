@@ -1,6 +1,6 @@
 <?php
     //definir o dominio do site
-    define('INCLUDE_PATH', 'http://localhost/Revisao-web-1/');
+    define('INCLUDE_PATH', 'http://localhost/TrabalhoWeb2/');
 
     //Carregando a classe: 'Email'
     $autoload = function($class){
@@ -8,7 +8,5 @@
     };
 
     spl_autoload_register($autoload);
-
-
 
 ?>
