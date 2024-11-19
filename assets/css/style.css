@@ -61,7 +61,6 @@ img{
 }
  
 header{
-    padding-right: 74px;
     flex-direction: row;
     display: flex;
     position: sticky;
@@ -95,12 +94,12 @@ header > nav{
 }
 
 .nav-bar{
-    /* ocupa todo o espaço disponível */
     flex-grow: 1;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-right: 74px;
 }
 
 .nav-li{
@@ -538,7 +537,7 @@ article::-webkit-scrollbar{
     margin-top: 30px;
     padding: 10px;
     height: 60vh;
-    width: 50vw;
+    width: 70vw;
     /* 0.95 para deixar transparente */
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
@@ -566,6 +565,7 @@ h1{
 .texto{
     display: block;
     font-size: 20px;
+    text-align: center;
 }
 
 .sub-titulo{
@@ -573,6 +573,15 @@ h1{
     display: block;
     text-align: center;
     font-size: clamp(7px, 25px, 20px); 
+}
+
+.espaco{
+    height: 20vh;
+}
+
+.container-autor{
+    max-width: 40vw;
+    margin: 0 auto;
 }
 
 /* Autor */
@@ -614,6 +623,10 @@ section.erro404 h2{
 section.erro404 a{
     color: rgb(75, 221, 75);
 }
+
+.espaco404{
+    height: 44.4vh;
+} 
 
 /* Contato */
 
@@ -681,12 +694,29 @@ section.erro404 a{
 }
 /* Contato */
 
+
+    
+
+
 /* Media screen para mobile */
 @media screen and (max-width: 768px){
     img{
         display: block;
         margin: 0 auto;
         max-width: 600px;
+    }
+
+    .barras{
+        padding-left: 70vw;
+        padding-top: 2vh;
+    }
+
+    #home-button{
+        border-right: 70vw;
+    }
+
+    #home-button:hover{
+        transform: scale(1.1);
     }
 
     .w50{
@@ -703,6 +733,7 @@ section.erro404 a{
         color: white;
         font-size: 24px;
         cursor: pointer;
+        z-index: 100;
     }
 
     nav.mobile ul{
@@ -714,6 +745,7 @@ section.erro404 a{
         background-color: black;
         text-align: center;
         display: none;
+        z-index: 100;
     }
 
     nav.mobile li{
@@ -723,12 +755,18 @@ section.erro404 a{
         padding: 10px;
         border-bottom: 1px solid white;
         border-top: 1px solid white;
+        z-index: 100;
+    }
+
+    li{
+        z-index: 100;
     }
 
     nav.mobile a{
         text-decoration: none;
         color: white;
         font-size: 22px;
+        z-index: 100;
     }
 
     section.especialidades{
@@ -742,7 +780,28 @@ section.erro404 a{
     .w50{
         width: 100%;
     }
+
+    .article-autor{
+        margin-top: 15px;
+        width: 95%;
+        height: 95vh;
+        margin: 0 auto;
+    }
+
+    .texto{
+        display: block;
+        font-size: 18px; 
+        align-items: center;
+    }
+
+    .container-autor{
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+
+    
 }
+
 
 
 

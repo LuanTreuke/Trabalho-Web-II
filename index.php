@@ -57,7 +57,9 @@
             </div>
         </nav>
         <nav class="mobile">
-            <div class="bars-mobile fa-solid fa-bars"></div>
+            <div class="barras">
+                <div class="bars-mobile fa-solid fa-bars"></div>
+            </div>
             <ul>
                 <li ><a href="<?php echo INCLUDE_PATH;?>">Home</a></li>
                 <li><a href="<?php echo INCLUDE_PATH;?>pokedex">Pokédex</a></li>
@@ -73,7 +75,7 @@
         if(file_exists('pages/'.$url.'.php')) {
             include('pages/'.$url.'.php');
         } else {
-            if($url != 'depoimentos' && $url != 'servicos') {
+            if($url != 'pokedex' && $url != 'contato' && $url != 'autor') {
                 $is404 = true;
                 include('pages/404.php');
             } else {
