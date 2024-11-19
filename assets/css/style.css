@@ -510,12 +510,19 @@ article::-webkit-scrollbar{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.438);
     animation-name: whatsapp;
     animation-duration: 6s;
-    animation-iteration-count: 3;
+    animation: whatsapp 5s ease-in-out infinite;
 }
 
-@keyframes whatsapp{
-    from{background-color: rgb(75, 221, 75);}
-    to{background-color: black;}
+@keyframes whatsapp {
+    0% {
+        background-color: rgb(75, 221, 75);
+    }
+    50% {
+        background-color: rgba(28, 39, 61, 0.95);
+    }
+    100% {
+        background-color: rgb(75, 221, 75);
+    }
 }
 /* Whatsapp */
 
