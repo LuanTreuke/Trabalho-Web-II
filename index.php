@@ -104,7 +104,7 @@
     <?php if($url == 'home' || $url == '' || $url == 'autor' || $url == 'contato' || $url == 'pokedex'){?>
         <script src="<?php echo INCLUDE_PATH;?>assets/js/slider.js"></script>
         <script src="<?php echo INCLUDE_PATH;?>assets/js/especialidades.js"></script>
-        <script src="<?php echo INCLUDE_PATH;?>assets/js/melhoremail.js"></script>
+        <script src="<?php echo INCLUDE_PATH;?>assets/js/atualizacoes.js"></script>
     <?php } ?>
     
     
