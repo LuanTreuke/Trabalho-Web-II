@@ -1,6 +1,6 @@
 <?php
     //definir o dominio do site
-    define('INCLUDE_PATH', 'http://localhost/Trabalho-Web-II/');
+    define('INCLUDE_PATH', 'http://localhost/TrabalhoWeb2/');
 
     //Carregando a classe: 'Email'
     $autoload = function($class){
