@@ -6,8 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descrição do site">
-    <meta name="keywords" content="Palavra chave 1, 2, 3, etc...">
+    <meta name="description" content="Site não oficial do Pokémon">
+    <meta name="keywords" content="Pokédex, Pokémon">
 
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>assets/css/style.css">
     <!-- Fonte -->
@@ -22,7 +22,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo INCLUDE_PATH;?>favicon.ico" type="image/x-icon">
     
-    <title>IFPR</title>
+    <title>Site Pokémon</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
     ?>
     
 
-    <header>
+    <header class="header-index">
             <a href="<?php echo INCLUDE_PATH;?>">
                 <img src="<?php echo INCLUDE_PATH;?>home icon.png" alt="LOGO POKEBOLA" id="home-button">
             </a>
@@ -71,7 +71,6 @@
     </header>
 
     <?php
-        //Se $url existe
         if(file_exists('pages/'.$url.'.php')) {
             include('pages/'.$url.'.php');
         } else {
@@ -102,7 +101,7 @@
 
     <script src="<?php echo INCLUDE_PATH;?>assets/js/scripts.js"></script>    
 
-    <?php if($url == 'home' || $url == '' || $url == 'depoimentos' || $url == 'servicos' ){?>
+    <?php if($url == 'home' || $url == '' || $url == 'autor' || $url == 'contato' || $url == 'pokedex'){?>
         <script src="<?php echo INCLUDE_PATH;?>assets/js/slider.js"></script>
         <script src="<?php echo INCLUDE_PATH;?>assets/js/especialidades.js"></script>
         <script src="<?php echo INCLUDE_PATH;?>assets/js/melhoremail.js"></script>
