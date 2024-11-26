@@ -105,10 +105,9 @@
         <script src="<?php echo INCLUDE_PATH;?>assets/js/slider.js"></script>
         <script src="<?php echo INCLUDE_PATH;?>assets/js/especialidades.js"></script>
         <script src="<?php echo INCLUDE_PATH;?>assets/js/atualizacoes.js"></script>
+        <script src="<?php echo INCLUDE_PATH;?>assets/js/typewriter.js"></script>
     <?php } ?>
     
-    
-
 </body>
 
 </html>

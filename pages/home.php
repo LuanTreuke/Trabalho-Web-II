@@ -21,12 +21,12 @@
                 <p>
                     <strong class="sub-titulo">Você sabe o que é e como funciona o Mundo Pokémon?</strong>
                     <br>
-                    Esse universo surgiu graças à popular franquia de games criada pela Nintendo e é muito maior e
-                    complexo do que você pode imaginar.
+                    <div class="txt1">Esse universo surgiu graças à popular franquia de games criada pela Nintendo e é muito maior e
+                    complexo do que você pode imaginar.</div>
                     <br><br>
-                    <strong class="sub-titulo">A Geografia do Mundo Pokémon</strong>
+                    <div><strong class="sub-titulo">A Geografia do Mundo Pokémon</strong></div>
                     <br>
-                    Como muitos já sabem desde a época dos jogos da franquia, o Mundo Pokémon é dividido em regiões que
+                    <div class="txt2">Como muitos já sabem desde a época dos jogos da franquia, o Mundo Pokémon é dividido em regiões que
                     são inspiradas em
                     locais do mundo real. Kanto, Johto, Hoenn e Sinnoh são inspiradas em áreas geográficas do Japão.
                     Já Unova é inspirada em Nova York, Kalos é baseada na França, Alola é uma cópia das ilhas do Havaí e
@@ -46,14 +46,15 @@
                     Regis (que, até onde se sabe, podem ter sido criados pelos humanos) na região de Sinnoh.
                     E muitas das cavernas existentes dentro do Mundo Pokémon foram uma obra dos Pokémon do tipo
                     terrestre. Um bom exemplo é
-                    a caverna dos Digletts, que fica na região de Kanto.
+                    a caverna dos Digletts, que fica na região de Kanto.</div>
+                    
                     <br><br>
                 </p>
                 <img class="imagem" src="assets/img/mundo pokemon.png" alt="mundos pokémon">
                 <p>
-                    <strong class="sub-titulo">História</strong>
+                    <div><strong class="sub-titulo">História</strong></div>
                     <br>
-                    Como muitos já sabem desde a época dos jogos da franquia, o Mundo Pokémon é dividido em regiões que
+                    <div class="txt3">Como muitos já sabem desde a época dos jogos da franquia, o Mundo Pokémon é dividido em regiões que
                     são inspiradas em
                     locais do mundo real. Kanto, Johto, Hoenn e Sinnoh são inspiradas em áreas geográficas do Japão.
                     Já Unova é inspirada em Nova York, Kalos é baseada na França, Alola é uma cópia das ilhas do Havaí e
@@ -73,11 +74,12 @@
                     Regis (que, até onde se sabe, podem ter sido criados pelos humanos) na região de Sinnoh.
                     E muitas das cavernas existentes dentro do Mundo Pokémon foram uma obra dos Pokémon do tipo
                     terrestre. Um bom exemplo é
-                    a caverna dos Digletts, que fica na região de Kanto.
+                    a caverna dos Digletts, que fica na região de Kanto.</div>
+                    
                     <br><br>
-                    <strong class="sub-titulo">A cultura humana</strong>
+                    <div><strong class="sub-titulo">A cultura humana</strong></div>
                     <br>
-                    Sim, a sociedade humana do Mundo Pokémon teve de aprender a coexistir com os poderosos monstrinhos.
+                    <div class="txt4">Sim, a sociedade humana do Mundo Pokémon teve de aprender a coexistir com os poderosos monstrinhos.
                     Um foco importante
                     desta sociedade é a caça e o treinamento dos Pokémon para duelos e competições, mas sabemos que vai
                     muito além disso.
@@ -109,7 +111,8 @@
 
                     E, claro, não podemos nos esquecer que a própria humanidade acabou criando alguns monstinhos. Esse é
                     o caso de Grimer e
-                    Muk, produtos de poluição, por exemplo.
+                    Muk, produtos de poluição, por exemplo.</div>
+                    
                 </p>
                 <img class="imagem" src="assets/img/Ash e amigos.jpg" alt="Ash com seu grupo">
             </div>
@@ -121,3 +124,4 @@
 
     </article>
 </section>
+

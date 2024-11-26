@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    user-select: none;
 }
 
 /* Boot CSS */
@@ -229,6 +230,24 @@ h1{
     text-align: center;
     font-size: clamp(7px, 18px, 20px); 
 }
+
+.txt1{
+    min-height: 44px;
+}
+
+.txt2{
+    min-height: 352px;
+}
+
+.txt3{
+    min-height: 352px;
+}
+
+.txt4{
+    min-height: 440px;
+}
+
+
 /* home */
 
 /* Pokedex */
